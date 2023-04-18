@@ -24,7 +24,7 @@ int main()
         while (space)
         {
             cout << " ";
-            space = space = space - 1;
+            space = space - 1;
         }
 
         // then * print karo based on i
