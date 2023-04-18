@@ -17,7 +17,7 @@ int main()
     {
         for (int j = 1; j <= n; j++)
         {
-            cout << ch << " ";
+            cout << ch << " ";      
             ch = ch + 1;
         }
         cout << endl;
