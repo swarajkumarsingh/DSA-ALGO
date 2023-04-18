@@ -55,10 +55,11 @@ int main()
         }
 
         // print 3nd triangle
-        int star2 = n - i + 1;
-        for (int j = 1; j <= star; j++)
+        int count = n - i + 1;
+        while (count)
         {
-            cout << j;
+            cout << count;
+            count = count - 1;
         }
 
         cout << endl;
