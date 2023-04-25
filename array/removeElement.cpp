@@ -9,7 +9,9 @@ vector<int> removeElement(vector<int> nums, int ele)
 
     for (int i = 0; i < nums.size(); i++)
     {
-        
+        if(nums[i] == ele){
+            // remove element and copy it to newNums vector
+        }
     }
     
 
