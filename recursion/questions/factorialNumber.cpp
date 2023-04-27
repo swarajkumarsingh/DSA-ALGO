@@ -21,12 +21,7 @@ int factorial(int n)
 
 int factorial2(int n)
 {
-    if (n == 0)
-    {
-        return 1;
-    }
-
-    int f = 0;
+    int f = 1;
     for (int i = 1; i <= n; i++)
     {
         f = f * i;
