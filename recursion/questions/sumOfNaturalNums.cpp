@@ -19,9 +19,9 @@ int sum(int n)
 int sum2(int n)
 {
     int sum = 0;
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
-        sum = sum + 1;
+        sum = sum + i;
     }
     return sum;
 }
