@@ -12,7 +12,7 @@ void fun(int n)
 {
     if (n > 0)
     {
-        printf("%d", n);
+        cout << " " << n;
         fun(n - 1);
         // NO CODE BELOW
     }

@@ -9,7 +9,7 @@ void funA(int n)
 {
     if (n > 0)
     {
-        printf("%d ", n);
+        cout << " " << n;
         funB(n - 1);
     }
 }
@@ -17,7 +17,7 @@ void funB(int n)
 {
     if (n > 1)
     {
-        printf("%d ", n);
+        cout << " " << n;
         funA(n / 2);
     }
 }
