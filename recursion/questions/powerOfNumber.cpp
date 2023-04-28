@@ -13,7 +13,7 @@ int fun(int m, int n)
     return total;
 }
 
-int main()
+int main()  
 {
     cout << fun(2, 8) << endl;
     return 0;
