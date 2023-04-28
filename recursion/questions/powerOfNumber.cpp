@@ -15,6 +15,6 @@ int fun(int m, int n)
 
 int main()
 {
-    cout << fun(2, 9) << endl;
+    cout << fun(2, 8) << endl;
     return 0;
 }
