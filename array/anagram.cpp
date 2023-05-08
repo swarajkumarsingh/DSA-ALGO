@@ -5,6 +5,9 @@
 
 using namespace std;
 
+// anagram - nagaram => true
+// rat - car => true
+
 bool isAnagram(string s, string t)
 {
     // if length is not equal return false
