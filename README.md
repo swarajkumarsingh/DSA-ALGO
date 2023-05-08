@@ -2,7 +2,7 @@
 
 ## About
 - This is my personal DSA & ALSO series, where I will be covering topics from scratch.
-- This Repo continues c++, as the programming language.
+- This Repo follows c++, as prmary primary the programming language.
 - This repo is first followed by Abdul Bari Udemy Paid course.
 - And then Love Babar Youtube Course.
 - this repo will have many question based on serveral topics in DSA like Arrays, String, Linklist, Tree and more.
