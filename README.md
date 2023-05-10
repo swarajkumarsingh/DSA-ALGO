@@ -12,7 +12,7 @@
 - structured folders, and commits for every file.
 - complete c++ syntax, and all default data structures.
 - First we will start with basic patterns
-- Then more concepts of DSA ALGO ( )
+- Then more concepts of DSA ALGO ( recursion )
 
 ## Tools Required
 
