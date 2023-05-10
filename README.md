@@ -11,6 +11,7 @@
 - This repo has 25+ pattern question and more.
 - structured folders, and commits for every file.
 - complete c++ syntax, and all default data structures.
+- First we will start with basic patterns
 
 ## Tools Required
 
