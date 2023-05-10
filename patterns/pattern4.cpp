@@ -19,7 +19,7 @@ int main()
         {
             //! Reverse the number from 123 --> 321
             // 3 - 1 + 1
-            cout << n - j + 1;
+            cout << i - j + 1;
         }
         cout << endl;
     }
