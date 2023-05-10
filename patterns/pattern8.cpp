@@ -26,8 +26,8 @@ int main()
         for (int col = 1; col <= row; col++) // 1, 1 --> 2, 2 --> 3, 3
         {
             cout << count << " ";
+            count = count + 1;
         }
-        count = count + 1;
         cout << endl;
     }
     return 0;
