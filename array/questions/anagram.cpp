@@ -8,6 +8,11 @@ using namespace std;
 // anagram - nagaram => true
 // rat - car => true
 
+// STEPS
+// 1. if length is not equal return false;
+// 2. sort both the strings
+// 3. compare both the sorted strings using single for loop
+
 bool isAnagram(string s, string t)
 {
     // if length is not equal return false
