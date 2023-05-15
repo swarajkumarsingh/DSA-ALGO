@@ -16,5 +16,10 @@ int main()
     // Here *b --> * operator gives the value to that address
     cout << *b;
 
+    // Now to store address of pointer variable we use int** c = &b;
+    int** c = &b;
+
+    // Here **c --> ** operator gives the value to that address here it will give the address of b coz that's its value
+    cout << *c;
     return 0;
 }
