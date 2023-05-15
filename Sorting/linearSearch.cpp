@@ -3,6 +3,10 @@
 
 using namespace std;
 
+// Top ways to optimize linearSearch
+// 1. Transposition: moving the recent found element one index forwad, so that next time for loop will find it one step ahead.
+// 2. Move to First/Head: here we move the recent found element to starting of the array, so that next time it is found at index 1.
+
 int linearSearch(vector<int> nums, int target)
 {
     for (int i = 0; i < nums.size(); i++)
