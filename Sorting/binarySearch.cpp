@@ -4,6 +4,14 @@
 
 using namespace std;
 
+// Complete process of binary search 
+// 1. Sort the given array
+// 2. find out mid, and if the target is smaller that mid, then ignore all the other values in right side
+// 2. find out mid, and if the target is larger that mid, then ignore all the other values in left side
+// 4. If nums[mid] == target return mid;
+// 5. All this will happen in the while loop where the condition is that l <= h
+// 6. If element is not found return -1
+
 int binarySearch(vector<int> nums, int target)
 {
     int l, mid, h;
