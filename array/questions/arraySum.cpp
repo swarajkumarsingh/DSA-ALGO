@@ -1,21 +1,26 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
+// Add all number from in the array
+
+int sum(vector<int> nums)
+{
+    int value = 0;
+    for (int i = 0; i < nums.size(); i++)
+    {
+        value = value + nums[i];
+    }
+    return value;
+}
+
 int main()
 {
-    // Add all number from 1 to n;
+    vector<int> nums = {1, 2};
+    int _ = sum(nums);
 
-    int n, sum = 0;
-
-    cin >> n;
-
-    for (int i = 1; i <= n; i++)
-    {
-        sum = sum + i;
-    }
-
-    cout << sum;
+    cout << _;
 
     return 0;
 }
