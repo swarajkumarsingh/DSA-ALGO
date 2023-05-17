@@ -4,7 +4,10 @@
 
 using namespace std;
 
-// Complete process of binary search 
+//! The binary search algorithm works on the principle of divide and conquer and
+//!  it is considered the best searching algorithm because it's faster to run
+
+//? Complete process of binary search
 // 1. Sort the given array
 // 2. find out mid, and if the target is smaller that mid, then ignore all the other values in right side
 // 2. find out mid, and if the target is larger that mid, then ignore all the other values in left side
@@ -15,7 +18,6 @@ using namespace std;
 int binarySearch(vector<int> nums, int target)
 {
     int l, mid, h;
-    sort(nums.begin(), nums.end());
     l = 0;
     h = nums.size() - 1;
 
@@ -35,7 +37,6 @@ int binarySearch(vector<int> nums, int target)
 int binarySearchRecursion(vector<int> nums, int l, int h, int target)
 {
     int mid;
-    sort(nums.begin(), nums.end());
 
     while (l <= h)
     {
@@ -52,8 +53,9 @@ int binarySearchRecursion(vector<int> nums, int l, int h, int target)
 
 int main()
 {
-    vector<int> nums = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    vector<int> nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int _ = binarySearch(nums, 9);
-    int __ = binarySearchRecursion(nums, 0, nums.size(), 3);
-    cout << _ << __;
+    int __ = binarySearchRecursion(nums, 0, nums.size(), 9);
+    cout << _ << endl
+         << __;
 }
