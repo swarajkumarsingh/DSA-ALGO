@@ -14,13 +14,25 @@
 - First we will start with basic patterns
 - Then more concepts of DSA ALGO ( recursion, arrays, strings and more ... )
 
-## Topics
+## Topics Covered
 - **Syntax**
 - **Arrays**
 - **Patterns**
 - **Recursion**
 - **Sorting Algorithms**
 - **Searching Algorithms**
+
+## Syntax Folder Covers
+- Sets
+- Maps
+- OOPS
+- Loops
+- Vector
+- String
+- Arrays 
+- Pointers
+- Un-Ordered Maps
+- Un-Ordered Sets
 
 ## Tools Required
 
