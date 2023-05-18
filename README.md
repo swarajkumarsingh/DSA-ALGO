@@ -41,11 +41,11 @@
 ```
 
 ```
-- C++ vs code extension
+- C++ VS code extension
 ```
 
 ```
-- Error Lens
+- Error Lens VS code extension
 ```
 
 ## Installation 
