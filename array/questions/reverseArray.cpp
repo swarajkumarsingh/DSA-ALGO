@@ -31,6 +31,8 @@ int main()
 {
     vector<int> nums = {1, 2, 3, 4, 5, 6};
     vector<int> _ = reverseArray(nums);
+
+    // Display
     cout << _[0] << endl
          << _[_.size() - 1];
     return 0;
