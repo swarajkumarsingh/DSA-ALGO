@@ -5,7 +5,7 @@ using namespace std;
 
 /*
 maxElement: find the maxElement with a single loop, here we took a inital value which is the first number of the elements given,
- and then loop thourgh the elements list,
+ and then loop though the elements list,
  if the element[i] is lesser than initalValue then, let the initial value be element[i] and loop repeats
 */
 
