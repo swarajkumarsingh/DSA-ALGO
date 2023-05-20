@@ -40,6 +40,8 @@
 - VS Code
 ```
 
+## Recommended VS Code Extensions
+
 ```
 - C++ VS code extension
 ```
@@ -48,7 +50,7 @@
 - Error Lens VS code extension
 ```
 
-## Installation 
+## Installation Tool
 
 ```
 - MinGW
