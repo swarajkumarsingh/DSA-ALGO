@@ -19,7 +19,8 @@ int main()
     if (n == 2 || n % 2 != 0)
     {
         cout << "Prime Number" << endl;
-    } else
+    }
+    else
     {
         cout << "NOT Prime Number" << endl;
     }
