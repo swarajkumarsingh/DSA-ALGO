@@ -2,12 +2,17 @@
 
 using namespace std;
 
-// check is the last bit is 1, then incr count, and then right shift(remove last elem), do this un-till the last value
+/*
+Question: 00000000000000000000000000001011, count the nums of 1's here in the binary code
 
-// 0,0, ..... 0,1,1,0
-// 0,0, ..... 0,1,1
-// 0,0, ..... 0,1
-// 0,0, ..... 0
+Answer:
+check is the last bit is 1, then incr count, and then right shift(remove last elem), do this un-till the last value
+
+0,0, ..... 0,1,1,0
+0,0, ..... 0,1,1
+0,0, ..... 0,1
+0,0, ..... 0
+*/
 
 int hammingWeight(uint32_t n)
 {
