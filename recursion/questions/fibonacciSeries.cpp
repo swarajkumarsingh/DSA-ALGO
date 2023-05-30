@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int func(int n)
+int funcRecursion(int n)
 {
     if (n <= 1)
     {
@@ -12,25 +12,51 @@ int func(int n)
     return func(n - 2) + func(n - 1);
 }
 
-int func1()
+int func()
 {
-    int a = 0, b = 1;
-    int n = 10;
-    cout << a << " " << b << " ";
+    int n = 10, a = 0, b = 1;
 
     for (int i = 1; i <= n; i++)
-    { 
-        int f = a + b;
-        cout << f << " ";
+    {
+        int nextNumber = a + b;
+        cout << nextNumber << " ";
 
+        /*
+            Now change a & b;
+            b = nextNumber
+            a = b;
+
+            nextNumber = 1;  |
+                             |
+            b = 1; <---------|
+                             |
+            a = 0; <---------|
+
+--------------------------------------------------------
+
+            nextNumber = 2   |
+                             |
+            b = 2; <---------|
+                             |
+            a = 1; <---------|
+
+--------------------------------------------------------
+
+            nextNumber = 3   |
+                             |
+            b = 3; <---------|
+                             |
+            a = 2; <---------|
+
+        */
+       
         a = b;
-        b = f;
+        b = nextNumber;
     }
 }
 
 int main()
 {
-    // cout << func(7);
-    cout << func1();
+    cout << func();
     return 0;
 }
