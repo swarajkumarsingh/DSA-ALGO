@@ -9,7 +9,29 @@ int funcRecursion(int n)
     {
         return n;
     }
-    return func(n - 2) + func(n - 1);
+    return funcRecursion(n - 2) + funcRecursion(n - 1);
+}
+
+// Self taught function
+vector<int> func1()
+{
+    int n;
+    cin >> n;
+
+    vector<int> arr = {0, 1};
+
+    for (int i = 2; i < n + 2; i++)
+    {
+        int hum = arr[i - 1] + arr[i - 2];
+        arr.push_back(hum);
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr[i] << " ";
+    }
+
+    return arr;
 }
 
 int func()
@@ -50,7 +72,7 @@ int func()
             a = 2; <---------|
 
         */
-       
+
         a = b;
         b = nextNumber;
     }
@@ -58,6 +80,6 @@ int func()
 
 int main()
 {
-    cout << func();
+    func1();
     return 0;
 }
