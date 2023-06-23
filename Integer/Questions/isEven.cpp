@@ -1,4 +1,4 @@
-// Is even number
+// Is even or odd number
 
 #include <iostream>
 
