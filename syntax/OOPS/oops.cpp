@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// Create class
 class Employee
 {
 public:
@@ -24,7 +25,7 @@ public:
     // init function, when object is created
     EmployeeWithConstructor(string name, int salary)
     {
-        // assigning values to the varibales name and salary
+        // assigning values to the variables name and salary
         this->name = name;
         this->salary = salary;
     }
@@ -36,7 +37,7 @@ public:
     };
 };
 
-// Inheritence
+// Inheritance, Child class can access the parent class variables and functions
 class ClassWithEmployeeVariables : public Employee
 {
 public:
@@ -63,12 +64,12 @@ int main()
     employee.name = "Simu";
     employee.salary = 99999;
 
-    // Gtting values of the class Employee
+    // Getting values of the class Employee
     cout << "Name: " << employee.name << endl;
     cout << "Salary: " << employee.salary << endl;
     cout << "Age : " << classWithEmployeeVariables.age << endl;
 
-    // Function call of the class Employe
+    // Function call of the class Employee
     employee.showGreeting();
 }
 
