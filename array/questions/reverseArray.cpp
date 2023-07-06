@@ -18,6 +18,8 @@ vector<int> reverseArray(vector<int> nums)
     int temp;
     for (int i = 0, j = nums.size() - 1; i < j; i++, j--)
     {
+        cout << " " << j;
+
         // Swap
         temp = nums[i];
         nums[i] = nums[j];
@@ -27,13 +29,35 @@ vector<int> reverseArray(vector<int> nums)
     return nums;
 }
 
+vector<int> reverseArray1(vector<int> nums)
+{
+    for (int start = 0; start < nums.size(); start++)
+    {
+        // "end"  = start - 1 coz "start" is starting from 0
+        int end = nums.size() - start - 1;
+
+        // Swap based on a condition
+        if (start < end)
+        {
+            int temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
+        }
+    }
+
+    return nums;
+}
+
 int main()
 {
-    vector<int> nums = {1, 2, 3, 4, 5, 6};
-    vector<int> _ = reverseArray(nums);
+    vector<int> nums = {1, 2, 3, 4, 5};
+    vector<int> result = reverseArray1(nums);
 
     // Display
-    cout << _[0] << endl
-         << _[_.size() - 1];
+    for (int i = 0; i < result.size(); i++)
+    {
+        cout << result[i] << " ";
+    }
+
     return 0;
 }
