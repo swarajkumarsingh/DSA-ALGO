@@ -42,6 +42,8 @@ The fundamental building blocks of computer science and software development are
 
 **Organized Structure**: The repository is set up into many folders, each of which corresponds to a DSA topic or category. You'll discover a carefully organized collection of issues associated with each folder's subject inside.
 
+**High-Quality Materials**: DSA notes and important questions from top creators on youtube at one place
+
 **Detailed Solutions**: Each problem solution is thoroughly explained, with code examples and step-by-step walkthroughs of the thought process behind the solution.
 
 **Time Complexity Analysis**: For each solution, we provide an analysis of its time and space complexity, helping you understand the efficiency of the algorithms.
