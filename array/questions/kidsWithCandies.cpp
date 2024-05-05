@@ -14,7 +14,7 @@ denoting the number of extra candies that you have. Return a boolean array resul
 where result[i] is true if, after giving the ith kid all the extraCandies,
 they will have the greatest number of candies among all the kids, or false otherwise.
 
-! If candy of a boy + extra candies is greater than a body without extra candies, then return true else false.
+! If candy of a boy + extra candies is >= greater or equal to the existing candies array, add true in the array
 
 Note that multiple kids can have the greatest number of candies.
 
