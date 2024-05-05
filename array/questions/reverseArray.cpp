@@ -53,11 +53,11 @@ vector<int> reverseArray2(vector<int> nums)
     int s = 0;
     int e = nums.size() - 1;
 
-    while (s<=e)
+    while (s <= e)
     {
         swap(nums[s], nums[e]);
         s++;
-        end--;
+        e--;
     }
 
     return nums;
