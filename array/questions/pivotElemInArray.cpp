@@ -19,20 +19,20 @@ int getPivot(vector<int> arr)
             start = mid + 1;
         }
         else
-        {1
+        {
             end = mid;
         }
 
         mid = (start + end) / 2;
     }
 
-    return s;
+    return start;
 }
 
-int getPivot2(int arr[], int n)
+int getPivot2(vector<int> arr)
 {
-
-    int s = 0;
+    int n = arr.size();
+     int s = 0;
     int e = n - 1;
     int mid = s + (e - s) / 2;
     int ans = 0;
@@ -56,6 +56,6 @@ int getPivot2(int arr[], int n)
 int main()
 {
     vector<int> arr = {7, 9, 1, 2, 3};
-    int res = getPivot(arr);
+    int res = getPivot2(arr);
     cout << "Min value: " << res;
 }
