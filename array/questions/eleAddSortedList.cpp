@@ -23,11 +23,14 @@ vector<int> addElementInSortedList1()
     int x = 7;
     int i = A.size() - 1;
 
+    // make space for 'x' element
     while (A[i] > x)
     {
         A[i + 1] = A[i];
         i--;
     }
+
+    // add the 'x' element in the empty space
     A[i + 1] = x;
 
     // Display
