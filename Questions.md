@@ -76,6 +76,9 @@
 
 - ```Medium```
     ```
+    [ ] https://leetcode.com/problems/valid-parentheses/
+    [ ] https://leetcode.com/problems/palindrome-number/
+    [ ] https://leetcode.com/problems/palindromic-substrings/
     [ ] https://leetcode.com/problems/longest-repeating-character-replacement/
     [ ] https://leetcode.com/problems/longest-substring-without-repeating-characters/
     [ ] https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
@@ -86,9 +89,12 @@
     [ ] https://leetcode.com/problems/basic-calculator-ii/
     [ ] https://leetcode.com/problems/integer-to-roman/
     [ ] https://leetcode.com/problems/reverse-words-in-a-string/
+    [ ] https://leetcode.com/problems/encode-and-decode-strings/
     [ ] https://leetcode.com/problems/simplify-path/
     [ ] https://leetcode.com/problems/zigzag-conversion/
     ```
 
 - ```Hard```
-    [ ] https://leetcode.com/problems/minimum-window-substring/      
+      ``` 
+      [ ] https://leetcode.com/problems/minimum-window-substring/
+      [ ] https://leetcode.com/problems/valid-anagram/  
