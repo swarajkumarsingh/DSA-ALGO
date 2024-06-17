@@ -76,6 +76,7 @@
 
 - ```Medium```
     ```
+    [ ] https://leetcode.com/problems/longest-repeating-character-replacement/
     [ ] https://leetcode.com/problems/longest-substring-without-repeating-characters/
     [ ] https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
     [ ] https://leetcode.com/problems/longest-palindromic-substring/
