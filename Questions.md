@@ -21,6 +21,7 @@
     [ ] https://leetcode.com/problems/squares-of-a-sorted-array/ https://leetcode.com/problems/squares-of-a-sorted-array/discuss/495394/C%2B%2B%3A-Simplest-one-pass-two-pointers
     [ ] https://leetcode.com/problems/pascals-triangle/ https://leetcode.com/problems/pascals-triangle/discuss/38125/Solution-in-Java
     [ ] https://leetcode.com/problems/remove-duplicates-from-sorted-array/ https://leetcode.com/problems/remove-duplicates-from-sorted-array/discuss/11782/Share-my-clean-C%2B%2B-code
+    [ ] https://leetcode.com/problems/search-in-rotated-sorted-array
     ```
 
 - ```Medium```
