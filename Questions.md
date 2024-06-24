@@ -21,6 +21,7 @@
     [ ] https://leetcode.com/problems/squares-of-a-sorted-array/ https://leetcode.com/problems/squares-of-a-sorted-array/discuss/495394/C%2B%2B%3A-Simplest-one-pass-two-pointers
     [ ] https://leetcode.com/problems/pascals-triangle/ https://leetcode.com/problems/pascals-triangle/discuss/38125/Solution-in-Java
     [ ] https://leetcode.com/problems/remove-duplicates-from-sorted-array/ https://leetcode.com/problems/remove-duplicates-from-sorted-array/discuss/11782/Share-my-clean-C%2B%2B-code
+    [ ] https://leetcode.com/problems/search-in-rotated-sorted-array
     ```
 
 - ```Medium```
@@ -75,6 +76,10 @@
 
 - ```Medium```
     ```
+    [ ] https://leetcode.com/problems/valid-parentheses/
+    [ ] https://leetcode.com/problems/palindrome-number/
+    [ ] https://leetcode.com/problems/palindromic-substrings/
+    [ ] https://leetcode.com/problems/longest-repeating-character-replacement/
     [ ] https://leetcode.com/problems/longest-substring-without-repeating-characters/
     [ ] https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
     [ ] https://leetcode.com/problems/longest-palindromic-substring/
@@ -84,6 +89,13 @@
     [ ] https://leetcode.com/problems/basic-calculator-ii/
     [ ] https://leetcode.com/problems/integer-to-roman/
     [ ] https://leetcode.com/problems/reverse-words-in-a-string/
+    [ ] https://leetcode.com/problems/encode-and-decode-strings/
     [ ] https://leetcode.com/problems/simplify-path/
     [ ] https://leetcode.com/problems/zigzag-conversion/
+    ```
+
+- ```Hard```
+    ```
+    [ ] https://leetcode.com/problems/minimum-window-substring/
+    [ ] https://leetcode.com/problems/valid-anagram/
     ```
