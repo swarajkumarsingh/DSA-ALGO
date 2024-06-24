@@ -48,7 +48,7 @@ int getPivot2(vector<int> arr)
         {
             e = mid;
         }
-        mid = s + (e - s) / 2;
+        mid = (start + end) / 2;
     }
     return ans;
 }
